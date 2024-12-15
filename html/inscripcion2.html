@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="arriba"> 
+<img src="logobuenosaires.webp" alt="">
+        <div class="tit2">
+       <div class="tit">
+   <h6>SOLICITUD DE INSCRIPCION Año Lectivo 2023</h6>
+       
+    
+    </div> 
+    <h1>EDUCACION SECUNDARIA</h1></div>
+</header>
+   
+    <div class="general">
+      <H3>DATOS DEL ESTABLECIMIENTO EN EL QUE SE INSCRIBE</H3>
+    <div class="cont">
+        <div class="caja1">
+            <form method="post" action="inscripcion.php">
+                <label for="clave">Clave Provincial:</label>
+                <input type="text" name="clave" id="clave" required><br><br>
+        
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required><br><br>
+        
+                <label for="localidad">Localidad:</label>
+                <input type="text" name="localidad" id="localidad" required><br><br>
+        
+              
+        
+              
+                </form>
+        </div>
+        <div class="caja2">
+            <form method="post" action="inscripcion.php">
+                <label for="cue">CUE:</label>
+                <input type="text" name="cue" id="cue" required><br><br>
+        
+                <label for="n">Nº:</label>
+                <input type="text" name="n" id="n" required><br><br>
+                <label for="sector">Sector de Gestion:</label>
+                <input type="radio" name="radio" id="radio" required>Estatal
+                <input type="radio" name="radio" id="radio" required>Privado
+                <input type="radio" name="radio" id="radio" required>Municipal<br><br>
+        
+                
+                </form>
+        </div>
+        <div class="caja3">
+            <form method="post" action="inscripcion.php">
+                <label for="mail">Mail adulto:</label>
+                <input type="email" name="mail" id="mail" required><br><br>
+        
+                <label for="distrito">Distrito:</label>
+                <input type="text" name="distrito" id="distrito" required><br><br>
+               
+                </form>
+        </div>
+    </div><br><br><br>
+    <h3>INSCRIPCION /El alumno se inscribe en</h3>
+    <div class="cont2">
+        <div class="caja1">
+            <form method="post" action="inscripcion.php">
+                <label for="codigo">Nivel Secundario:</label>
+                <input type="radio" name="radio" id="radio" required>Ciclo Basico
+                <input type="radio" name="radio" id="radio" required>CESAJ
+                <input type="radio" name="radio" id="radio" required>Ciclo Superior<br><br>
+        
+                <label for="codigo">AÑO:</label>
+                <input type="checkbox" name="radio" id="radio" required>1
+                <input type="checkbox" name="radio" id="radio" required>2
+                <input type="checkbox" name="radio" id="radio" required>3
+                <input type="checkbox" name="radio" id="radio" required>4
+                <input type="checkbox" name="radio" id="radio" required>5
+                <input type="checkbox" name="radio" id="radio" required>6
+                <br><br>
+                <label for="jornada">CONDICION DEL ALUMNO EN LA INSCRIPCION ACTUAL:</label>
+                <input type="radio" name="radio" id="radio" required>Simple
+                <input type="radio" name="radio" id="radio" required>Completa
+                <input type="radio" name="radio" id="radio" required>Extendida
+                <input type="radio" name="radio" id="radio" required>Doble Escolaridad<br><br>
+
+       
+               
+                
+                </form>
+        </div>
+        <div class="caja2">
+        <form method="post" action="inscripcion.php">
+            <label for="codigo">Orientacion:</label>
+            <input type="text" name="codigo" id="codigo" required><br><br>
+    
+             <label for="codigo">TURNO:</label>
+                <input type="radio" name="radio" id="radio" required>Mañana
+                <input type="radio" name="radio" id="radio" required>Tarde
+                <input type="radio" name="radio" id="radio" required>Noche
+                <input type="radio" name="radio" id="radio" required>Vespertino
+                <input type="radio" name="radio" id="radio" required>Intermedio<br><br>
+
+                <label for="jornada">TRAYECTORIA DEL ALUMNO</label>
+                <P>¿Es alumno con pase?</P>
+                <input type="radio" name="radio" id="radio" required>Si
+                <input type="radio" name="radio" id="radio" required>No
+                
+            </form></div>
+        <div class="caja3">
+            <form method="post" action="inscripcion.php">
+               <label for="jornada">JORNADA:</label>
+                <input type="radio" name="radio" id="radio" required>Simple
+                <input type="radio" name="radio" id="radio" required>Completa
+                <input type="radio" name="radio" id="radio" required>Extendida
+                <input type="radio" name="radio" id="radio" required>Doble Escolaridad<br><br>
+
+                <p>¿Asistio como alumno integrado a otra institucion educativa?</p>
+                <input type="radio" name="radio" id="radio" required>Si
+                <input type="radio" name="radio" id="radio" required>No<br><br>
+                </form>
+        </div>
+    </div>
+    <h3>DATOS DEL ALUMNO</h3>
+    <div class="cont3">
+        <div class="caja1">
+            <form method="post" action="inscripcion.php">
+                <label for="codigo">Tipo de Doc.</label>
+                <input type="text" name="codigo" id="codigo" required><br><br>
+        
+                <label for="nombre">Nº:</label>
+                <input type="number" name="nombre" id="nombre" required><br><br>
+                <input type="radio" name="radio" id="radio" required>Posee
+                <input type="radio" name="radio" id="radio" required>En tramite
+                <input type="radio" name="radio" id="radio" required>No Posee <br><br>
+
+                <label for="nombre">Estado del Doc.</label>
+                <input type="radio" name="radio" id="radio" required>Bueno
+                <input type="radio" name="radio" id="radio" required>Malo<br><br>
+
+        
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido" required><br><br>
+        
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad" id="edad" required><br><br>
+        
+                <label for="telefono">Telefono:</label>
+                <input type="text" name="telefono" id="telefono" required><br><br>
+                </form>
+        </div>
+        <div class="caja2">
+            <form method="post" action="inscripcion.php">
+                
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required><br><br>
+        
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido" required><br><br>
+        
+                <label for="edad">Sexo:</label>
+                <input type="radio" name="edad" id="edad" required>Masculino
+                <input type="radio" name="edad" id="edad" required>Femenino<br><br>
+        
+                <label for="telefono">Fecha de Nacimiento:</label>
+                <input type="month" name="telefono" id="telefono" required><br><br>
+
+                <label for="telefono">Lugar de Nacimiento:</label>
+                <input type="month" name="telefono" id="telefono" required><br><br>
+
+                <label for="telefono">Nacionalidad:</label>
+                <input type="month" name="telefono" id="telefono" required><br><br>
+                </form>
+        </div>
+        <div class="caja3">
+            <form method="post" action="inscripcion.php">
+                <label for="codigo">Domicilio:</label>
+                <input type="text" name="codigo" id="codigo" required><br><br>
+        
+                <label for="nombre">Calle:</label>
+                <input type="text" name="nombre" id="nombre" required><br><br>
+        
+                <label for="apellido">Nº:</label>
+                <input type="text" name="apellido" id="apellido" required><br><br>
+                <label for="telefono">Piso:</label>
+                <input type="text" name="telefono" id="telefono" required><br><br>
+                <label for="telefono">Torre:</label>
+                <input type="text" name="telefono" id="telefono" required><br><br>
+
+                <label for="telefono">Dto:</label>
+                <input type="text" name="telefono" id="telefono" required><br><br>
+                <label for="nombre">Entre Calles:</label>
+                <input type="text" name="nombre" id="nombre" required><br><br>
+        
+                </form>
+        </div>
+    </div>
+    <h3>no va nada</h3>
+    <div class="cont4">
+        <div class="caja1">
+            <form method="post" action="inscripcion.php">
+                <label for="codigo">Mail del Alumno.</label>
+                <input type="text" name="codigo" id="codigo" required><br><br>
+        
+                <label for="nombre">Provincia:</label>
+                <input type="number" name="nombre" id="nombre" required><br><br>
+            
+                <label for="apellido">Distrito:</label>
+                <input type="text" name="apellido" id="apellido" required><br><br>
+        
+                <label for="edad">Localidad:</label>
+                <input type="number" name="edad" id="edad" required><br><br>
+
+          <label for="nombre">Telefono.</label>
+                <input type="number" name="radio" id="radio" required><br><br>
+
+                <label for="telefono">Telefono Celular:</label>
+                <input type="text" name="telefono" id="telefono" required><br><br>
+                </form>
+        </div>
+        <div class="caja2">
+            <form method="post" action="inscripcion.php">
+                
+                <label for="nombre">Num de Legajo:</label>
+                <input type="text" name="nombre" id="nombre" required><br><br>
+        
+                <label for="apellido">Num de Folio:</label>
+                <input type="text" name="apellido" id="apellido" required><br><br>
+        
+                <label for="edad">Otros datos del alumno:</label>
+                <label for="edad">Hermanos:</label>
+                <input type="radio" name="edad" id="edad" required>Si
+                <input type="radio" name="edad" id="edad" required>No<br><br>
+                <label for="edad">Cantidad:</label>
+                <input type="number" name="edad" id="edad" required><br><br>
+        
+                <label for="edad">Cantidad de habitantes en el hogar:</label>
+                <input type="number" name="edad" id="edad" required><br><br>
+
+                <label for="telefono">Cantidad de habitaciones en el hogar:</label>
+                <input type="month" name="telefono" id="telefono" required><br><br>
+
+                
+                </form>
+        </div>
+        <div class="caja3">
+            <form method="post" action="inscripcion.php">
+                <label for="telefono" >Recibe ayuda escolar:</label>
+                <input type="radio" name="telefono" id="telefono" required>Si
+                <input type="radio" name="telefono" id="telefono" required>No<br><br>
+
+                <label for="telefono" >Obra Social:</label>
+                <input type="radio" name="telefono" id="telefono" required>Si
+                <input type="radio" name="telefono" id="telefono" required>No<br><br>
+        
+                <label for="telefono" >Se encuentra integrado a algun plan o programa?:</label><br>
+                <input type="radio" name="telefono" id="telefono" required>Si
+                <input type="radio" name="telefono" id="telefono" required>No<br><br>
+                <label for="telefono" >h</label><br>
+                <input type="radio" name="telefono" id="telefono" required>AUH
+                <input type="radio" name="telefono" id="telefono" required>Progresar
+                <input type="radio" name="telefono" id="telefono" required>Becas Judicializadas
+                <input type="radio" name="telefono" id="telefono" required>Becas por excepcion
+                <input type="radio" name="telefono" id="telefono" required>Otros<br><br>
+        
+        
+                <label for="apellido">Medio de transporte que lo acerca al establecimiento:</label>
+                <input type="radio" name="telefono" id="telefono" required>Ominbus
+                <input type="radio" name="telefono" id="telefono" required>Auto particular
+                <input type="radio" name="telefono" id="telefono" required>Taxi/Remis
+                <input type="radio" name="telefono" id="telefono" required>Otro<br><br>
+
+               
+        
+                </form>
+        
+    </div>
+</div>
+</body>
+</html>

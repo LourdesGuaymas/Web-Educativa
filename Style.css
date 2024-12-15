@@ -1,0 +1,671 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: arial;
+}
+ 
+body{
+background-image: url(cielo.jpg);
+width: 100%;
+height: 100%;
+
+
+
+
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+    box-shadow: 0 0 10px #04bd7d;
+    background-color: #080b09a7;
+    
+}
+#ws_cover{
+    width: 180%;
+}
+#chk1{
+    display: none;
+}
+i{
+    color: rgb(44, 229, 44);
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+ .logo img{
+   margin-top: 20px;
+   width: 70%;
+   height: 10vh;
+   margin-left: 20px;
+   margin-right: 20px;
+   
+}
+#captu{
+    width: 30%;
+    height: 20vh;
+}
+
+header ul{
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+   
+    font-weight: 600;
+    text-decoration: uppercase;
+    padding: 10px 15px;
+    color: #04bd7d;
+}
+header ul li a:hover{
+    border-bottom: 3px solid #04bd7d;
+    background-color: #f0f0f020;
+}
+header .menu{
+    color: #04bd7d;
+    font-size: 2.5em;
+    display: none;
+}
+@media screen and (max-width:600px){
+    .search-box button{
+ position: absolute;
+}
+.especialidad{
+    flex-direction: column;
+    align-items: center;
+}
+.adminis .area2{
+    width: 50%;
+    height: 29vh;
+}
+.caletodo{
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cale{
+    width: 30%;
+    height: 50vh;
+}
+.todo{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.card .front p{
+    width: 10px;
+   font-size: 10%;
+}
+.alumnos {
+ 
+   width: 90%;
+   height: 100vh;
+}
+.card .front img{
+width: 20%;
+margin-top: 20px;
+align-items: center;
+}
+section{
+    display: none;
+}
+#contenido{
+    flex-direction: column;
+    align-items: center;
+}
+header ul{
+    position: fixed;
+    top: 100px;
+    right: -100%;
+    background: #000000;
+    height: calc(100vh - 100px);
+    width:50%;
+    flex-direction: column;
+    align-items: center;
+    transition: right 0.5s linear;
+  }
+  header .menu{
+    display: block;
+    width: 100px;
+    text-align: center;
+  }
+  #chk1:checked ~ ul  {
+  right: 0%;
+
+  }
+  .correo{
+    width: 100%;
+  }
+  .todd{
+    flex-direction: column;
+  }
+ .especialidad{
+    
+
+ }
+    header .logo{
+        font-size:10px;
+        margin-left: 8px;
+    }
+    header ul{
+        width: 100%;
+    }
+    }
+    
+
+.comu{
+    color: white;
+}
+#contenido{
+    display: flex;
+    justify-content: space-around;
+  
+    
+}
+.contenedor2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+#contenido #caja1:hover{
+   
+    box-shadow: 0 12px 16px rgba(1,0,0, 5);
+     box-shadow: 0 0 10px #000000;
+}
+.comu{
+    color: #000000;
+}
+section{
+   
+}
+#contenido{
+    margin-bottom: 10px;
+}
+
+#caja1{
+   
+    width: 300px;
+    height: 400px;
+    background-color: rgba(15, 10, 10, 0.721);
+   text-align: center;
+    margin-top: 10px;
+   font-family: sans-serif;
+  border-radius: 8px;
+  
+}
+
+#caja1 h4{
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+#caja1 p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 0 1rem;
+    font-size: 16px;
+    color: #bab6b6;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+#caja1 a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #f6f6f6;
+}
+#caja1 button{
+   
+    width: 100px;
+    height: 40px;
+border-radius: 6px  ;
+border-width: 2px;
+border-color: #04bd7d;
+box-shadow: 0 0 6px #000000;
+transition: all 0.3s;
+
+    background-color:transparent;
+}
+#caja1 button:hover{
+    transform: translateY(-10px);
+    background-color: #04bd7d;
+}
+button::after{
+    transform: translateY(0);
+}
+img{
+   border-radius: 8px;
+    margin-top: px;
+    width: 300px;
+    height: 180px;
+    margin-bottom: 20px;
+   
+}
+
+input{
+    margin-top: 20px;
+    margin-right: 10px;
+   width: 70px;
+   height: 30px;
+   background-color: rgb(8, 94, 65);
+   border-radius: 7px;
+}
+.contacto{
+    text-align:center;
+}
+.text iframe{
+  justify-items: end;
+
+}
+.mapa h2{
+    text-align: center;
+}
+.container {
+    background-color: #5e4c8a;
+    padding: 10px;
+    height: 150vh;
+    width: 100%;
+}
+
+/* HTML: <div class="loader"></div> */
+button  {
+    width: 35px;
+    aspect-ratio: 2;
+    --c1:linear-gradient(90deg,#0000 calc(100%/3),#8ac6d7 0 calc(2*100%/3),#0000 0);
+    --c2:linear-gradient( 0deg,#0000 calc(100%/3),#046D8B 0 calc(2*100%/3),#0000 0);
+    background: var(--c1),var(--c2),var(--c1),var(--c2);
+    background-size: 300% 4px,4px 300%;
+    background-repeat: no-repeat;
+    animation: l3 4s infinite linear;
+  }
+  @keyframes l3 {
+    0%   {background-position: 50%  0,100% 100%,0    100%,0 0}
+    25%  {background-position: 0    0,100% 50% ,0    100%,0 0}
+    50%  {background-position: 0    0,100% 0   ,50%  100%,0 0}
+    75%  {background-position: 0    0,100% 0   ,100% 100%,0 50%}
+   75.01%{background-position: 100% 0,100% 0   ,100% 100%,0 50%}
+    100% {background-position: 50%  0,100% 0   ,100% 100%,0 100%}
+  }
+.trans {
+    opacity: 0.5;
+}
+/* HTML: <div class="loader"></div> */
+.lini {
+    width: 100%;
+    height: 20px;
+    background: 
+      linear-gradient(90deg,#0001 33%,rgba(0, 0, 0, 0.587) 50%,#0001 66%)
+      #7393ab;
+    background-size:300% 100%;
+    animation: l1 3s infinite linear;
+  }
+  @keyframes l1 {
+    0% {background-position: right}
+  }
+.content{
+    width: 40%;
+    height: 20vh;
+    background-color: #5e4c8a;
+}
+.captura11 img{
+    width: 40%;
+    height: 50vh;
+}
+.todo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+   
+} 
+.todo p{
+    font-size: 20px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #ffffff;
+}
+.card{
+    position: relative;
+    width: 600px;
+    height: 350px;
+}
+.card .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+   
+
+}
+.card .front{
+    transform:perspective(600px) rotate(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .front img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card .front h3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+}
+.card .back{
+    transform: perspective(500px) rotateY(180deg);
+    background: rgba(0, 0, 0, 0.534);
+    padding: 15px;
+    color:#f3f3f3;
+display:flex ;
+flex-direction: column;
+justify-content: space-between;
+text-align: center;
+box-shadow: 0 5px 10px #000;
+}
+.card .back .link{
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+.card .back .link a{
+    color: #f3f3f3;
+}
+.card .back h3{
+    font-size: 30px;
+    margin-top:  20px;
+    letter-spacing: 2px;
+}
+.card .back p {
+    letter-spacing: 1px;
+}
+
+.card:hover .back{
+    transform: perspective(600px) rotateY(360deg);
+}
+.mapa{
+   
+    display: flex;
+    width: 100%;
+    height: 530px;
+    background-color: #07070785;
+    margin-bottom: 90px;
+    align-items: center;
+   
+   
+     justify-content: center;
+}
+.correo{
+   background-color: #07070785;
+   width: 100%;
+   height: 530px;
+ 
+ text-align: center;
+ padding: 20px;
+ padding-top: 100px;
+ color: #f3f3f3;
+
+ 
+}
+.correo a{
+    color: #bab6b6;
+}
+
+
+.todd{
+    display: flex;
+    
+    width: 100%;
+    height: 40vh;
+    
+}
+.especialidad{
+    width: 90%;
+    height: 70vh;
+    background: #00000046;
+    text-align: center;
+    padding: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 67px;
+    border-radius: 8px;
+    color: #fff;
+}
+.especialidad p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: -20px;
+    width: 100%;
+    font-size: 18px;
+}
+ h1{
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.area2{
+    width: 50%;
+    padding: 30px;
+    height: 55vh;
+    background-color: rgba(71, 42, 157, 0.37);
+    
+}
+.area1{
+    width: 40%;
+    background:  rgba(71, 42, 157, 0.37);
+    height: 55vh;
+   padding: 50px;
+   padding-top: 30px;
+   font-size: 20px;
+}
+
+#img{
+width: 60%;
+height: 80vh;
+
+padding-top: 20px;
+
+}
+#imgs2{
+    margin-top: 30px;
+    height: 33vh;
+    width: 100%;
+}
+#imgs{
+   margin-top: 50px;
+   width: 100%;
+   height: 35.5vh;
+}
+.adminis{
+    margin-top: 5pxpx;
+    width: 40%;
+    height: 55vh;
+    background:  rgba(71, 42, 157, 0.37);
+    
+}
+.ado{
+    
+    width: 90%;
+    height: 40vh;  display: flex;
+    background: #5e4c8a;
+
+}
+
+.captura{
+  
+    width: 80%;
+    text-align: center;
+    margin-top: 15px;
+   align-items: center;
+margin-left: 135px;
+    background: #0000006a;
+   
+}
+.captura2 img{ width: 80%;
+    text-align: center;
+    height: 90vh;
+    margin-top: 19px;
+   align-items: center;
+
+    background: #0000006a;
+    border-radius: 8px;
+
+}
+.sepa{
+    height: 20px;
+}
+footer{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    color: #bab6b6;
+    background-color: #080b09a7;
+}
+.cale{
+    width: 80%;
+    height: 150px;
+    background: #2e2562bb;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.caletodo{
+   display: flex;
+   justify-content: center;
+   display: inline;
+}
+footer p{
+   padding: 21.5px;
+}
+.ciclost{
+   
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 130px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    
+}
+.ciclos{border-radius: 10px;
+    box-shadow: 0 0 10px #04bd7d;
+    margin-left: 14.5%;
+    background: rgba(21, 21, 21, 0.797);
+    width: 70%;
+   
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.departamento{
+    background: rgba(6, 6, 5, 0.722);
+    text-align: center;
+    padding: 90px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    
+}
+h3 {
+    
+   box-shadow: 0 0 10px #0b885cc2; 
+   
+}
+h1{
+    box-shadow: 0 0 10px #0b885cc2;  
+}
+.listado{
+    background: #000000b0;
+    width: 100%;
+    height: 52vh;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+
+}
+.listado h1{
+    margin-bottom: 10px;
+    padding: 20PX;
+}
+.listado H3{
+    padding: 20PX;
+    background-color:#000000b0 ;
+}
+.captura11 img{
+    margin-top: 60px;
+    background: #b80000b0;
+    width: 60%;
+    height: 70vh;
+}
+.captura12{
+    height: 100vh;
+}
+.captura11{
+
+    width: 100%;
+    height: 110vh;
+    background: #000000b0;
+}
+.algo1{
+    margin-bottom: -90px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #04bd7c18;
+    color: #fff;
+  
+    background-color: #000;
+
+}
+.sepa{
+    background-color:#000000b0 ;
+}
+.algo{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #04bd7c18;
+    color: #fff;
+  
+    background-color: #000;
+
+}
